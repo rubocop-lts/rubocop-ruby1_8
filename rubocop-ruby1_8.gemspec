@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.description = "Links dependency on minimum Ruby version to maximum RuboCop version"
   spec.homepage = "https://github.com/rubocop-lts/rubocop-ruby1_8"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.2.0"
+  spec.required_ruby_version = ">= 2.7"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "#{spec.homepage}/tree/v#{spec.version}"
@@ -50,34 +50,34 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # linting
-  spec.add_dependency("rubocop-gradual", "~> 0.3")
-  spec.add_dependency("rubocop-md", "~> 1.2")
-  spec.add_dependency("rubocop-rake", "~> 0.6")
-  spec.add_dependency("rubocop-shopify", "~> 2.13")
-  spec.add_dependency("rubocop-thread_safety", "~> 0.5")
-  spec.add_dependency "standard", ["~> 1.28", "< 2"]
+  spec.add_dependency("rubocop-gradual", "~> 0.3")                # >= 2.6.0
+  spec.add_dependency("rubocop-md", "~> 1.2")                     # >= 2.6.0
+  spec.add_dependency("rubocop-rake", "~> 0.6")                   # >= 2.5.0
+  spec.add_dependency("rubocop-shopify", "~> 2.13")               # >= 2.7.0
+  spec.add_dependency("rubocop-thread_safety", "~> 0.5")          # >= 2.5.0
+  spec.add_dependency "standard", ["~> 1.28", "< 2"]              # >= 2.6.0
   # standard-performance pulls in rubocop-performance
-  spec.add_dependency "standard-performance", ["~> 1.0", "< 2"]
-  spec.add_dependency "standard-custom", ["~> 1.0", "< 2"]
+  spec.add_dependency "standard-performance", ["~> 1.0", "< 2"]   # >= 2.6.0
+  spec.add_dependency "standard-custom", ["~> 1.0", "< 2"]        # >= 2.6.0
 
   # RubyGems adding this gem will need to explicitly add rubocop-packaging to their dependencies.
   # Since it only applies to rubygems we do not add it as a runtime dependency of this gem.
-  spec.add_development_dependency("rubocop-packaging", "~> 0.5")
+  spec.add_development_dependency("rubocop-packaging", "~> 0.5")  # >= 2.6.0
 
   # Code tested with RSpec will need to explicitly add rubocop-rspec to their dependencies.
   # Since it only applies to RSpec, which some people or projects don't use,
   #   we do not add it as a runtime dependency of this gem.
-  spec.add_development_dependency("rubocop-rspec", "~> 2.22")
+  spec.add_development_dependency("rubocop-rspec", "~> 2.22")     # >= 2.7.0
 
   # standard-rails pulls in rubocop-rails
   # Rails apps will need to explicitly add standard-rails to their dependencies.
   # Since it only applies to Rails, which some people or projects don't use,
   #   we do not add it as a runtime dependency of this gem.
-  spec.add_development_dependency("standard-rails", "~> 0.1")
+  spec.add_development_dependency("standard-rails", "~> 0.1")     # >= 2.7.0
 
   # betterlint pulls in rubocop & rubocop-rspec
   # Rails apps will need to explicitly add betterlint to their dependencies.
   # Since it only applies to Rails, which some people or projects don't use,
   #   we do not add it as a runtime dependency of this gem.
-  spec.add_development_dependency("betterlint", "~> 1.4")
+  spec.add_development_dependency("betterlint", "~> 1.4")         # >= 2.7.0
 end
