@@ -9,7 +9,7 @@ GIT
 PATH
   remote: .
   specs:
-    rubocop-ruby3_2 (1.0.0)
+    rubocop-ruby1_8 (1.0.0)
       rubocop-gradual (~> 0.3)
       rubocop-md (~> 1.2)
       rubocop-rake (~> 0.6)
@@ -157,7 +157,7 @@ DEPENDENCIES
   rubocop-packaging (~> 0.5)
   rubocop-rake (~> 0.6)
   rubocop-rspec (~> 2.22)
-  rubocop-ruby3_2!
+  rubocop-ruby1_8!
   rubocop-shopify (~> 2.13)
   rubocop-thread_safety (~> 0.5)
   simplecov (~> 0.22)

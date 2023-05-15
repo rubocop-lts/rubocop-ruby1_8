@@ -31,5 +31,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - betterlint
     - standard-rails
 
-[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby3_2/-/compare/v1.0.0...HEAD
-[1.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby3_2/-/compare/91d4f2ff323ce25ebe8476244d50bb786fbb78f9...v1.0.0
+[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.0...HEAD
+[1.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/b1df7fff27e040c8dc7a7e63bf8eddbe456c7d18...v1.0.0

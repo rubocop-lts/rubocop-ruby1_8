@@ -41,10 +41,10 @@ end
 defaults = %i[test]
 
 # Internally this works
-#   load "lib/rubocop/ruby3_2/tasks.rake"
+#   load "lib/rubocop/ruby1_8/tasks.rake"
 # But ...
 #   externally it won't, so in other internal projects' Rakefiles we:
-require "rubocop/ruby3_2"
+require "rubocop/ruby1_8"
 Rubocop::Ruby32.install_tasks
 
 begin
