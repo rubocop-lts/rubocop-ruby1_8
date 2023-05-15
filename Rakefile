@@ -45,7 +45,7 @@ defaults = %i[test]
 # But ...
 #   externally it won't, so in other internal projects' Rakefiles we:
 require "rubocop/ruby1_8"
-Rubocop::Ruby32.install_tasks
+Rubocop::Ruby18.install_tasks
 
 begin
   require "rubocop/gradual/rake_task"

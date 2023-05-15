@@ -3,8 +3,8 @@
 # Get the GEMFILE_VERSION without *require* "my_gem/version", for code coverage accuracy
 # See: https://github.com/simplecov-ruby/simplecov/issues/557#issuecomment-825171399
 load "lib/rubocop/ruby1_8/version.rb"
-gem_version = Rubocop::Ruby32::VERSION
-Rubocop::Ruby32.send(:remove_const, :VERSION)
+gem_version = Rubocop::Ruby18::VERSION
+Rubocop::Ruby18.send(:remove_const, :VERSION)
 
 Gem::Specification.new do |spec|
   spec.name = "rubocop-ruby1_8"

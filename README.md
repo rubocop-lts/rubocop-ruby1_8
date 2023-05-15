@@ -78,7 +78,7 @@ NOTE: You might be interested in [`rubocop-lts`](https://github.com/rubocop-lts/
 [⛳️ini-g]: https://rubygems.org/gems/rubocop-ruby1_8
 [⛳️ini-gh]: https://github.com/rubocop-lts/rubocop-ruby1_8
 
-# 🦾 Rubocop::Ruby32
+# 🦾 Rubocop::Ruby18
 
 See the intro [blog post](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)!
 

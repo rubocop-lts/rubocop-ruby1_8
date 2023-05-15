@@ -2,9 +2,9 @@
 
 require "rake"
 
-RSpec.describe Rubocop::Ruby32 do
+RSpec.describe Rubocop::Ruby18 do
   it "has a version number" do
-    expect(Rubocop::Ruby32::VERSION).not_to be_nil
+    expect(Rubocop::Ruby18::VERSION).not_to be_nil
   end
 
   describe "install_tasks" do

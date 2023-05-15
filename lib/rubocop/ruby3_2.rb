@@ -7,7 +7,7 @@ require_relative "ruby1_8/railtie" if defined?(Rails::Railtie)
 
 module Rubocop
   # Namespace of this library
-  module Ruby32
+  module Ruby18
     module_function def install_tasks
       load "rubocop/ruby1_8/tasks.rake"
     end

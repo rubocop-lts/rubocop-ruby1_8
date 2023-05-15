@@ -1,5 +1,5 @@
 module Rubocop
-  module Ruby32
+  module Ruby18
     class Railtie < Rails::Railtie
       railtie_name :rubocop_ruby1_8
 
