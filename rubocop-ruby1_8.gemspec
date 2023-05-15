@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.cert_chain = ["certs/pboling.pem"]
   spec.signing_key = File.expand_path("~/.ssh/gem-private_key.pem") if $PROGRAM_NAME.end_with?("gem")
 
-  spec.summary = "Semantically Versioned RuboCop Dependency"
+  spec.summary = "Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual"
   spec.description = "Links dependency on minimum Ruby version to maximum RuboCop version"
   spec.homepage = "https://github.com/rubocop-lts/rubocop-ruby1_8"
   spec.license = "MIT"
