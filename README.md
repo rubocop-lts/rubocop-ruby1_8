@@ -135,7 +135,7 @@ minimizing the risk of a rubocop minor / patch upgrade breaking the build.
 
 ### What's that you say?
 
-This gem will install a suite of tools that will **analyze code** intended to support any version of Ruby >= 3.0.
+This gem will install a suite of tools that will **analyze code** intended to support any version of Ruby >= 1.8.
 
 This gem helps insulate projects from RuboCop churn by enshrining many conventions
 that have been shown over years to reduce problems.
@@ -144,7 +144,9 @@ that have been shown over years to reduce problems.
 
 Each [spring `rubocop` drops][rubocop-support-matrix] the ability to **install** and **run** `rubocop` on an EOL'd Ruby.
 Eventually `rubocop` will drop the ability to **analyze code** intended to support an EOL'd Ruby,
-as they already have for Ruby 1.8 and 1.9.
+as they already have for Ruby 1.9. RuboCop has never run properly on Ruby 1.8.
+This gem, via [standardrb][standardrb], allows RuboCop to analyze Ruby 1.8 code,
+by turning off certain rules that only apply to later Rubies.
 
 When the `rubocop` team makes _any_ of these changes they
 [only bump the minor version][rubocop-versioning] of RuboCop,
@@ -162,6 +164,7 @@ To get a better understanding of how SemVer is intended to work read this articl
 [rubocop-versioning]: https://docs.rubocop.org/rubocop/versioning.html
 [rubocop-release-policy]: https://docs.rubocop.org/rubocop/versioning.html#release-policy
 [major-versions-not-sacred]: https://tom.preston-werner.com/2022/05/23/major-version-numbers-are-not-sacred.html
+[standardrb]: https://github.com/standardrb/standard
 
 ### 👪 A Gem Family
 
