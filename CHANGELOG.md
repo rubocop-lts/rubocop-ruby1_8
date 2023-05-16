@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * inaccurate spec.description in GemSpec
 * ship rubocop configs at rubocop-lts/**/*.yml
 
-## [1.0.0] 2023-04-16 (yanked)
+## [1.0.0] 2023-04-16 [YANKED]
 ### Added
 * Initial release
   - Configs for:
@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - standard
     - standard-performance
     - standard-custom
+    - standard-rubocop-lts
   - And optionally, if you are using RSpec:
     - rubocop-rspec
   - And optionally, if you are building a RubyGem:
