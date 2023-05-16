@@ -93,6 +93,7 @@ This gem configures many gems for you:
 - standard
 - standard-performance (incl. rubocop-performance)
 - standard-custom
+- standard-rubocop-lts (ruby version-specific rules)
 
 And optionally, if you are using RSpec:
 
