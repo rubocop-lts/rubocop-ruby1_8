@@ -17,8 +17,8 @@ Gem::Specification.new do |spec|
   spec.signing_key = File.expand_path("~/.ssh/gem-private_key.pem") if $PROGRAM_NAME.end_with?("gem")
 
   spec.summary = "Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual"
-  spec.description = "Links dependency on minimum Ruby version to maximum RuboCop version"
-  spec.homepage = "https://github.com/rubocop-lts/rubocop-ruby1_8"
+  spec.description = "Configure RuboCop + a bevy of friends to gradually lint Ruby 1.8 code"
+  spec.homepage = "https://github.com/rubocop-lts/#{spec.name}"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.7"
 

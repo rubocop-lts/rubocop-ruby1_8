@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
+## [1.0.1] 2023-04-16
+### Fixed
+* inaccurate spec.description in GemSpec
+
 ## [1.0.0] 2023-04-16
 ### Added
 * Initial release
