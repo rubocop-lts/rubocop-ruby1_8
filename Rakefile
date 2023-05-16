@@ -6,7 +6,6 @@
   rspec/core/rake_task
 ].each { |f| require f }
 
-require "rspec/core/rake_task"
 RSpec::Core::RakeTask.new(:spec) do |spec|
   spec.pattern = FileList["spec/**/*_spec.rb"]
 end
@@ -45,12 +44,11 @@ defaults = %i[test]
 # But ...
 #   externally it won't, so in other internal projects' Rakefiles we:
 require "rubocop/ruby1_8"
+
 Rubocop::Ruby18.install_tasks
 
 begin
   require "rubocop/gradual/rake_task"
-
-  RuboCop::Gradual::RakeTask.new
 
   defaults << :rubocop_gradual
 rescue LoadError

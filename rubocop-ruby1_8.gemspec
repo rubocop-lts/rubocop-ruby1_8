@@ -55,10 +55,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency("rubocop-rake", "~> 0.6")                   # >= 2.5.0
   spec.add_dependency("rubocop-shopify", "~> 2.13")               # >= 2.7.0
   spec.add_dependency("rubocop-thread_safety", "~> 0.5")          # >= 2.5.0
-  spec.add_dependency "standard", ["~> 1.28", "< 2"]              # >= 2.6.0
-  spec.add_dependency "standard-custom", ["~> 1.0", "< 2"]        # >= 2.6.0
-  # standard-performance pulls in rubocop-performance
-  spec.add_dependency "standard-performance", ["~> 1.0", "< 2"]   # >= 2.6.0
   spec.add_dependency "standard-rubocop-lts", ["~> 1.0", "< 2"]   # >= 2.6.0
 
   # RubyGems adding this gem will need to explicitly add rubocop-packaging to their dependencies.

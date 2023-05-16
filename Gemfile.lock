@@ -15,9 +15,6 @@ PATH
       rubocop-rake (~> 0.6)
       rubocop-shopify (~> 2.13)
       rubocop-thread_safety (~> 0.5)
-      standard (~> 1.28, < 2)
-      standard-custom (~> 1.0, < 2)
-      standard-performance (~> 1.0, < 2)
       standard-rubocop-lts (~> 1.0, < 2)
 
 GEM
@@ -138,7 +135,7 @@ GEM
     standard-rails (0.1.0)
       lint_roller (~> 1.0)
       rubocop-rails (~> 2.19.0)
-    standard-rubocop-lts (1.0.0)
+    standard-rubocop-lts (1.0.1)
       standard (~> 1.28, < 2)
       standard-custom (~> 1.0, < 2)
       standard-performance (~> 1.0, < 2)
@@ -170,9 +167,6 @@ DEPENDENCIES
   simplecov-json (~> 0.2)
   simplecov-lcov (~> 0.8)
   simplecov-rcov!
-  standard (~> 1.28, < 2)
-  standard-custom (~> 1.0, < 2)
-  standard-performance (~> 1.0, < 2)
   standard-rails (~> 0.1)
   standard-rubocop-lts (~> 1.0)
   yard (~> 0.9, >= 0.9.34)

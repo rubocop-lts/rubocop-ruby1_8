@@ -7,7 +7,7 @@ inherit_mode:
     - Exclude
 
 require:
-  - # Loads the Standard Ruby suite of gems, and configures for rubocop-lts:
+  # Loads the Standard Ruby suite of gems, and configures for rubocop-lts:
   - standard-rubocop-lts
   # The goal here is convention over configuration...
   # In light of that, we are well past having convened on Markdown for README docs and such.
