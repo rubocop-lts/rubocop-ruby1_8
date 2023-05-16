@@ -18,7 +18,7 @@
 
 ---
 
-NOTE: You might be interested in [`rubocop-lts`](https://github.com/rubocop-lts/rubocop-lts#-how-to-untie-gorgons-knot) which sits as a higher level than this gem, and can keep pace with whatever version of Ruby you happen to be on.
+NOTE: You might be interested in [`rubocop-lts`][rrlts] which sits as a higher level than this gem, and can keep pace with whatever version of Ruby you happen to be on.
 
 | Gem Name                      | Version                             | Downloads                                                            | CI                                                                    | Activity                                                                                                                                              |
 |-------------------------------|-------------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ that have been shown over years to reduce problems.
 Each [spring `rubocop` drops][rubocop-support-matrix] the ability to **install** and **run** `rubocop` on an EOL'd Ruby.
 Eventually `rubocop` will drop the ability to **analyze code** intended to support an EOL'd Ruby,
 as they already have for Ruby 1.9. RuboCop has never run properly on Ruby 1.8.
-This gem, via [standardrb][standardrb], allows RuboCop to analyze Ruby 1.8 code,
+This gem, via [standard (Standard Ruby)][standardrb], allows RuboCop to analyze Ruby 1.8 code,
 by turning off certain rules that only apply to later Rubies.
 
 When the `rubocop` team makes _any_ of these changes they
@@ -168,9 +168,11 @@ To get a better understanding of how SemVer is intended to work read this articl
 
 ### 👪 A Gem Family
 
-The `rubocop-lts` series of gems has a version supporting any version of Ruby you need.
+The `rubocop-lts` family of gems has a version supporting any version of Ruby you need.
 They can be used as development dependencies for libraries or applications.
 
+- [`rubocop-lts`][rlts]
+- [`standard-rubocop-lts`][stdrlts]
 - [`rubocop-ruby1_8`][rr18]
 - [`rubocop-ruby1_9`][rr19]
 - [`rubocop-ruby2_0`][rr20]
@@ -185,7 +187,9 @@ They can be used as development dependencies for libraries or applications.
 - [`rubocop-ruby3_1`][rr31]
 - [`rubocop-ruby3_2`][rr32]
 
-[rr18]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8
+[rrlts]: https://github.com/rubocop-lts/rubocop-lts#-how-to-untie-gorgons-knot
+[stdrlts]: https://github.com/rubocop-lts/standard-rubocop-lts
+[rr18]: https://gitlab.com/rubocop-lts/standard-rubocop-lts
 [rr19]: https://gitlab.com/rubocop-lts/rubocop-ruby1_9
 [rr20]: https://gitlab.com/rubocop-lts/rubocop-ruby2_0
 [rr21]: https://gitlab.com/rubocop-lts/rubocop-ruby2_1
@@ -203,12 +207,10 @@ They can be used as development dependencies for libraries or applications.
 
 All releases of this gem are stable releases.
 We do not release new versions for every release of `rubocop`,
-as this gem is tied to [`standard`][standard].
+as this gem is tied to [standard (Standard Ruby)][standardrb].
 A typical release cycle for a gem in the `rubocop-lts` family is roughly every six months,
 though eventually analysis support for an old version of Ruby will be dropped.
 When that happens releases of the `rubocop-lts` gem for that version of Ruby will (mostly) cease.
-
-[standard]: https://github.com/standardrb/standard
 
 ## ✨ Installation
 
@@ -243,7 +245,7 @@ Let's talk about these settings. (TODO: Document some of the other settings!)
 
 Upgrades to the latest RuboCop can include all kinds of changes, including removing support for the version of Ruby your project uses, or adding a cop that may not work with some of your syntax (e.g. [some use cases of 'module_function`](https://github.com/rubocop/rubocop/issues/5953#issuecomment-805921993)).  Accepting new cops arriving in a new version of RuboCop can feel risky, especially when it doesn't follow SemVer.
 
-But this gem shoehorns RuboCop into SemVer, under the watchful eye of [`standard`][standard]... so `NewCops` is now safe(r)!  If you use a dependency greening tool like GitHub's `dependabot`, or the excellent alternatives [depfu](https://depfu.com/), and [`renovate`](https://www.whitesourcesoftware.com/free-developer-tools/renovate/), then you can see the effect of a minor / major version bump in your CI Build!
+But this gem shoehorns RuboCop into SemVer, under the watchful eye of [standard (Standard Ruby)][standardrb]... so `NewCops` is now safe(r)!  If you use a dependency greening tool like GitHub's `dependabot`, or the excellent alternatives [depfu](https://depfu.com/), and [`renovate`](https://www.whitesourcesoftware.com/free-developer-tools/renovate/), then you can see the effect of a minor / major version bump in your CI Build!
 
 ## Advanced Usage
 
