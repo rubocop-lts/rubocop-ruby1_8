@@ -234,16 +234,10 @@ Among _many_ other settings, this has the effect of declaring the following:
 
 ```yaml
 AllCops:
-  # remove if already present in your `.rubocop-lts.yml` to gain the full benefit of this gem!
-  TargetRubyVersion: 3.2
   NewCops: enable
 ```
 
-Let's talk about these settings.
-
-### ⚙️ `TargetRubyVersion`
-
-Allowing this gem to manage the target ruby version means you can switch to a different gem within the family when you upgrade to the next version of Ruby, and have nothing else to change.  A single line in the `Gemfile`, and you are done.
+Let's talk about these settings. (TODO: Document some of the other settings!)
 
 ### ⚙️ `NewCops: enable`
 
