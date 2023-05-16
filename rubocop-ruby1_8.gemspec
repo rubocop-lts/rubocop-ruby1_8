@@ -36,6 +36,7 @@ Gem::Specification.new do |spec|
     # Splats (alphabetical)
     "lib/**/*.rb",
     "sig/**/*.rbs",
+    "rubocop-lts/**/*.yml",
     # Files (alphabetical)
     "CHANGELOG.md",
     "CODE_OF_CONDUCT.md",
