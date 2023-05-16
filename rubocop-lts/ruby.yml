@@ -7,12 +7,8 @@ inherit_mode:
     - Exclude
 
 require:
-  # Standard's config uses custom cops,
-  # so it must be loaded here
-  - standard
-  - rubocop-performance
-  - standard-performance
-  - standard-custom
+  - # Loads the Standard Ruby suite of gems, and configures for rubocop-lts:
+  - standard-rubocop-lts
   # The goal here is convention over configuration...
   # In light of that, we are well past having convened on Markdown for README docs and such.
   - rubocop-md
@@ -26,9 +22,7 @@ require:
   - rubocop/gradual/patch
 
 inherit_gem:
-  standard: config/ruby-1.8.yml
-  standard-performance: config/base.yml
-  standard-custom: config/base.yml
+  standard-rubocop-lts: config/ruby-1.8.yml
   # shopify rules will override standard's rules.
   rubocop-shopify: rubocop.yml
 

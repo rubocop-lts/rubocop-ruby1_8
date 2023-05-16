@@ -18,6 +18,7 @@ PATH
       standard (~> 1.28, < 2)
       standard-custom (~> 1.0, < 2)
       standard-performance (~> 1.0, < 2)
+      standard-rubocop-lts (~> 1.0, < 2)
 
 GEM
   remote: https://rubygems.org/
@@ -28,7 +29,7 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     ast (2.4.2)
-    betterlint (1.4.5)
+    betterlint (1.4.6)
       rubocop (> 1.0)
       rubocop-performance
       rubocop-rails
@@ -80,7 +81,7 @@ GEM
       parser (>= 3.2.1.0)
     rubocop-capybara (2.18.0)
       rubocop (~> 1.41)
-    rubocop-factory_bot (2.22.0)
+    rubocop-factory_bot (2.23.1)
       rubocop (~> 1.33)
     rubocop-gradual (0.3.1)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -137,6 +138,10 @@ GEM
     standard-rails (0.1.0)
       lint_roller (~> 1.0)
       rubocop-rails (~> 2.19.0)
+    standard-rubocop-lts (1.0.0)
+      standard (~> 1.28, < 2)
+      standard-custom (~> 1.0, < 2)
+      standard-performance (~> 1.0, < 2)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.4.2)
@@ -166,7 +171,10 @@ DEPENDENCIES
   simplecov-lcov (~> 0.8)
   simplecov-rcov!
   standard (~> 1.28, < 2)
+  standard-custom (~> 1.0, < 2)
+  standard-performance (~> 1.0, < 2)
   standard-rails (~> 0.1)
+  standard-rubocop-lts (~> 1.0)
   yard (~> 0.9, >= 0.9.34)
 
 BUNDLED WITH
