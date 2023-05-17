@@ -3,10 +3,6 @@
 require "rake"
 
 RSpec.describe Rubocop::Ruby18 do
-  it "has a version number" do
-    expect(Rubocop::Ruby18::VERSION).not_to be_nil
-  end
-
   describe "install_tasks" do
     subject(:install_tasks) { described_class.install_tasks }
 

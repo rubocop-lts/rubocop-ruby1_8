@@ -3,8 +3,8 @@
 # Get the GEMFILE_VERSION without *require* "my_gem/version", for code coverage accuracy
 # See: https://github.com/simplecov-ruby/simplecov/issues/557#issuecomment-825171399
 load "lib/rubocop/ruby1_8/version.rb"
-gem_version = Rubocop::Ruby18::VERSION
-Rubocop::Ruby18.send(:remove_const, :VERSION)
+gem_version = Rubocop::Ruby18::Version::VERSION
+Rubocop::Ruby18::Version.send(:remove_const, :VERSION)
 
 Gem::Specification.new do |spec|
   spec.name = "rubocop-ruby1_8"
@@ -51,12 +51,13 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # linting
-  spec.add_dependency("rubocop-gradual", "~> 0.3")                # >= 2.6.0
-  spec.add_dependency("rubocop-md", "~> 1.2")                     # >= 2.6.0
-  spec.add_dependency("rubocop-rake", "~> 0.6")                   # >= 2.5.0
-  spec.add_dependency("rubocop-shopify", "~> 2.13")               # >= 2.7.0
-  spec.add_dependency("rubocop-thread_safety", "~> 0.5")          # >= 2.5.0
-  spec.add_dependency "standard-rubocop-lts", ["~> 1.0", "< 2"]   # >= 2.6.0
+  spec.add_dependency("rubocop-gradual", "~> 0.3")                  # >= 2.6.0
+  spec.add_dependency("rubocop-md", "~> 1.2")                       # >= 2.6.0
+  spec.add_dependency("rubocop-rake", "~> 0.6")                     # >= 2.5.0
+  spec.add_dependency("rubocop-shopify", "~> 2.13")                 # >= 2.7.0
+  spec.add_dependency("rubocop-thread_safety", "~> 0.5")            # >= 2.5.0
+  spec.add_dependency("standard-rubocop-lts", [">= 1.0.1", "< 2"])  # >= 2.6.0
+  spec.add_dependency("version_gem", [">= 1.1.2", "< 3"])           # >= 2.2.0
 
   # RubyGems adding this gem will need to explicitly add rubocop-packaging to their dependencies.
   # Since it only applies to rubygems we do not add it as a runtime dependency of this gem.
