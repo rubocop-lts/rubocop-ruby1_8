@@ -22,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] 2023-04-16 [YANKED]
 ### Added
-* Initial release
+- Initial release
   - Configs for:
     - rubocop
     - rubocop-gradual
