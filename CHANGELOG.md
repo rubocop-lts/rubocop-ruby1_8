@@ -12,13 +12,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.2] 2023-04-17
 ## Added
-* version_gem to help with code coverage
-* more documentation
+- version_gem to help with code coverage
+- more documentation
 
 ## [1.0.1] 2023-04-16
 ### Fixed
-* inaccurate spec.description in GemSpec
-* ship rubocop configs at rubocop-lts/**/*.yml
+- inaccurate spec.description in GemSpec
+- ship rubocop configs at rubocop-lts/**/*.yml
 
 ## [1.0.0] 2023-04-16 [YANKED]
 ### Added
