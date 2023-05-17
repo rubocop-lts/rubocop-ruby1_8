@@ -30,7 +30,7 @@ See: [https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/graphs/main][🖐contribu
 
 [comment]: <> (Following links are used by README, CONTRIBUTING, Homepage)
 
-[conduct]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/blob/main/CODE_OF_CONDUCT.md
+[🤝conduct]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/blob/main/CODE_OF_CONDUCT.md
 [🖐contributors]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/graphs/main
 [🚎src-main]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/tree/main
 [🏘chat]: https://gitter.im/rubocop-lts/community

@@ -131,12 +131,12 @@ Secondary purpose is to provide default configurations for a bevy of RuboCop-rel
 
 ## 💎 Ruby Version Support
 
-Adding this gem will facilitate the best practice of adding a `~> ` version constrained `rubocop`(-ish) dependency, while
-minimizing the risk of a rubocop minor / patch upgrade breaking the build.
+This gem facilitates equivalent of adding a `~> ` version constrained `rubocop`(-ish +more) dependency,
+thus minimizing the risk of a rubocop minor / patch upgrade breaking the build.
 
 ### What's that you say?
 
-This gem will install a suite of tools that will **analyze code** intended to support any version of Ruby >= 1.8.
+This gem will install a suite of tools that will **analyze & lint code** intended to support any version of Ruby >= 1.8.
 
 This gem helps insulate projects from RuboCop churn by enshrining many conventions
 that have been shown over years to reduce problems.
@@ -348,7 +348,9 @@ License: [Unsplash License][org-logo-license]
 
 ## 🤝 Code of Conduct
 
-Everyone interacting in this project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/rubocop-lts/rubocop-ruby1_8/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in this project's codebases, issue trackers, [chat rooms][🏘chat] and mailing lists is expected to follow the [code of conduct][🤝conduct].
+
+[🤝conduct]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/blob/main/CODE_OF_CONDUCT.md
 
 ## 📌 Versioning
 
@@ -372,7 +374,7 @@ spec.add_dependency "rubocop-ruby1_8", "~> 1.0"
 [blogpage]: http://www.railsbling.com/tags/rubocop-ruby1_8/
 [codecov_coverage]: https://codecov.io/gh/rubocop-lts/rubocop-ruby1_8
 [code_triage]: https://www.codetriage.com/rubocop-lts/rubocop-ruby1_8
-[chat]: https://gitter.im/rubocop-lts/rubocop-ruby1_8?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+[🏘chat]: https://gitter.im/rubocop-lts/community
 [climate_coverage]: https://codeclimate.com/github/rubocop-lts/rubocop-ruby1_8/test_coverage
 [climate_maintainability]: https://codeclimate.com/github/rubocop-lts/rubocop-ruby1_8/maintainability
 [copyright-notice-explainer]: https://opensource.stackexchange.com/questions/5778/why-do-licenses-such-as-the-mit-license-specify-a-single-year
