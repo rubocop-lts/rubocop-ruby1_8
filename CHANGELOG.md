@@ -10,17 +10,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
-## [1.0.2] 2023-04-17
+## [1.0.2] 2023-05-17
 ## Added
 - version_gem to help with code coverage
 - more documentation
 
-## [1.0.1] 2023-04-16
+## [1.0.1] 2023-05-16
 ### Fixed
 - inaccurate spec.description in GemSpec
 - ship rubocop configs at rubocop-lts/**/*.yml
 
-## [1.0.0] 2023-04-16 [YANKED]
+## [1.0.0] 2023-05-16 [YANKED]
 ### Added
 - Initial release
   - Configs for:
