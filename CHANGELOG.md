@@ -10,12 +10,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
-## [1.0.2] 2023-05-17
+## [1.0.3] 2023-05-18
+### Fixed
+- Ship lib/rubocop/ruby1_9/rakelib/rubocop_gradual.rake
+- Fix rake_tasks hook on Railtie
+
+## [1.0.2] 2023-05-17 [YANKED]
 ## Added
 - version_gem to help with code coverage
 - more documentation
 
-## [1.0.1] 2023-05-16
+## [1.0.1] 2023-05-16 [YANKED]
 ### Fixed
 - inaccurate spec.description in GemSpec
 - ship rubocop configs at rubocop-lts/**/*.yml
@@ -42,7 +47,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - betterlint
     - standard-rails
 
-[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.2...HEAD
+[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.3...HEAD
+[1.0.3]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.2...v1.0.3
 [1.0.2]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.1...v1.0.2
 [1.0.1]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.0...v1.0.1
 [1.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/b1df7fff27e040c8dc7a7e63bf8eddbe456c7d18...v1.0.0
