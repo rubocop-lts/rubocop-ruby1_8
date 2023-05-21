@@ -9,7 +9,7 @@ GIT
 PATH
   remote: .
   specs:
-    rubocop-ruby1_8 (1.0.3)
+    rubocop-ruby1_8 (1.0.4)
       rubocop-gradual (~> 0.3)
       rubocop-md (~> 1.2)
       rubocop-rake (~> 0.6)
