@@ -10,9 +10,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
+## [1.0.5] 2023-05-22
+### Fixed
+- install_tasks and Railtie loading of rake tasks
+
 ## [1.0.4] 2023-05-21
 ### Fixed
 - Ship rake tasks in gem package
+### Changed
+- tasks.rake => tasks.rb
 
 ## [1.0.3] 2023-05-18
 ### Fixed
@@ -50,7 +56,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - betterlint
     - standard-rails
 
-[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.4...HEAD
+[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.5...HEAD
+[1.0.5]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.4...v1.0.5
 [1.0.4]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.3...v1.0.4
 [1.0.3]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.2...v1.0.3
 [1.0.2]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.1...v1.0.2
