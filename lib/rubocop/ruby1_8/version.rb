@@ -3,7 +3,7 @@
 module Rubocop
   module Ruby18
     module Version
-      VERSION = "1.0.5"
+      VERSION = "1.0.6"
     end
   end
 end
