@@ -15,7 +15,7 @@ rescue LoadError
   end
 end
 desc "alias test task to spec"
-task test: :spec
+task :test => :spec
 
 begin
   require "yard"
@@ -44,4 +44,4 @@ Rubocop::Ruby18.install_tasks
 
 defaults << :rubocop_gradual
 
-task default: defaults
+task :default => defaults
