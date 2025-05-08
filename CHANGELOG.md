@@ -7,11 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 ### Changed
+- Tidelift for Reporting Security vulnerabilities
 - Moved development dependencies back to gemspec
   - See: https://github.com/rubygems/rubygems/discussions/5065#discussioncomment-7031586
 - kettle-soup-cover v1.0.2 for Code Coverage (dev dependency)
 ### Fixed
 ### Removed
+- rubocop-shopify because they boiled the ocean
+  - turning cops off isn't copacetic with the goal of strict compatibility
 
 ## [1.0.7] 2023-06-14
 ### Changed
