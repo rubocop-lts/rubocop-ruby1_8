@@ -3,4 +3,7 @@ source "https://rubygems.org"
 # Include dependencies from <gem name>.gemspec
 gemspec
 
-gem "byebug", platform: :mri
+# Documentation
+eval_gemfile "gemfiles/modular/documentation.gemfile"
+
+gem "byebug", :platform => :mri

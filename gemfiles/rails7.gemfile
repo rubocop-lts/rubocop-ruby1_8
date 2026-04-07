@@ -9,4 +9,4 @@ gem "rails", "~> 7.0"
 # On CI we only need the gemspecs' dependencies (including development dependencies).
 # Exceptions, if any, will be found in gemfiles/*.gemfile
 
-gemspec path: "../"
+gemspec :path => "../"

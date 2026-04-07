@@ -7,4 +7,4 @@ git_source(:gitlab) { |repo_name| "https://gitlab.com/#{repo_name}" }
 # On CI we only need the gemspecs' dependencies (including development dependencies).
 # Exceptions, if any, will be found in gemfiles/*.gemfile
 
-gemspec path: "../"
+gemspec :path => "../"
