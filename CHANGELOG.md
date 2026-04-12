@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 ### Changed
 - Tidelift for Reporting Security vulnerabilities
+- Updated `standard-rubocop-lts` dependency to the `2.x` series.
 - Moved development dependencies back to gemspec
   - See: https://github.com/rubygems/rubygems/discussions/5065#discussioncomment-7031586
 - kettle-soup-cover v1.0.2 for Code Coverage (dev dependency)
