@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 ### Changed
+### Fixed
+### Removed
+
+## [2.0.2] 2026-06-01
+### Added
+### Changed
 - Updated direct dependency floors and moved `rubocop-md` to plugin loading.
 ### Fixed
 ### Removed
@@ -108,7 +114,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - betterlint
     - standard-rails
 
-[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v2.0.1...HEAD
+[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v2.0.2...HEAD
 [1.0.7]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.6...v1.0.7
 [1.0.6]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.5...v1.0.6
 [1.0.5]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.4...v1.0.5
@@ -119,3 +125,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [1.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/b1df7fff27e040c8dc7a7e63bf8eddbe456c7d18...v1.0.0
 [2.0.1]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v2.0.0...v2.0.1
 [2.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.7...v2.0.0
+[2.0.2]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v2.0.1...v2.0.2
