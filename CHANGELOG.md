@@ -7,7 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 ### Changed
+- Updated direct dependency floors and moved `rubocop-md` to plugin loading.
+### Fixed
+### Removed
+
+## [2.0.1] 2026-06-01
+### Added
+### Changed
 - Load `rubocop-thread_safety` through RuboCop's plugin API.
+### Fixed
+### Removed
+
+## [2.0.0] 2026-05-30
+### Added
+### Changed
 - Tidelift for Reporting Security vulnerabilities
 - Updated `standard-rubocop-lts` dependency to the `2.x` series.
 - Moved development dependencies back to gemspec
@@ -95,7 +108,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - betterlint
     - standard-rails
 
-[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.7...HEAD
+[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v2.0.1...HEAD
 [1.0.7]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.6...v1.0.7
 [1.0.6]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.5...v1.0.6
 [1.0.5]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.4...v1.0.5
@@ -104,3 +117,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [1.0.2]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.1...v1.0.2
 [1.0.1]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.0...v1.0.1
 [1.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/b1df7fff27e040c8dc7a7e63bf8eddbe456c7d18...v1.0.0
+[2.0.1]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v2.0.0...v2.0.1
+[2.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.7...v2.0.0
