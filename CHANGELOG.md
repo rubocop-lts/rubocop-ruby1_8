@@ -20,11 +20,7 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Added
 
-- Added support for JRuby 10.1 and TruffleRuby 34.0.
-
 ### Changed
-
-- Retemplated project metadata and CI/development automation with `kettle-jem` v7.0.0.
 
 ### Deprecated
 
@@ -32,14 +28,34 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Fixed
 
+### Security
+
+## [2.0.4] - 2026-06-25
+
+- TAG: [v2.0.4][2.0.4t]
+- COVERAGE: 55.17% -- 16/29 lines in 5 files
+- BRANCH COVERAGE: 0.00% -- 0/2 branches in 5 files
+- 42.86% documented
+
+### Added
+
+- Added support for JRuby 10.1 and TruffleRuby 34.0.
+
+### Changed
+
+- Retemplated project metadata and CI/development automation with `kettle-jem` v7.0.0.
+
+### Fixed
+
 - Restored `docs/CNAME` so the generated documentation site keeps its custom domain.
 - Corrected misspelled contact metadata to use `galtzo.com`.
 
-### Security
-
 ## [2.0.2] 2026-06-01
+
 ### Added
+
 ### Changed
+
 - Corrected gem metadata to declare the Ruby 3.2 runtime floor that has been implicit since the last major release.
 - Updated dependency floors:
   - `version_gem` to `~> 1.1`, `>= 1.1.9`.
@@ -50,45 +66,64 @@ Please file a bug if you notice a violation of semantic versioning.
   - `standard-rubocop-lts` to `~> 2.0`, `>= 2.0.3`.
   - Release, lint, documentation, and test dependencies to their latest compatible floors.
 - Updated direct dependency floors and moved `rubocop-md` to plugin loading.
+
 ### Fixed
+
 ### Removed
 
 ## [2.0.1] 2026-06-01
+
 ### Added
+
 ### Changed
+
 - Load `rubocop-thread_safety` through RuboCop's plugin API.
+
 ### Fixed
+
 ### Removed
 
 ## [2.0.0] 2026-05-30
+
 ### Added
+
 ### Changed
+
 - Tidelift for Reporting Security vulnerabilities
 - Updated `standard-rubocop-lts` dependency to the `2.x` series.
 - Moved development dependencies back to gemspec
   - See: https://github.com/rubygems/rubygems/discussions/5065#discussioncomment-7031586
 - kettle-soup-cover v1.0.2 for Code Coverage (dev dependency)
+
 ### Fixed
+
 ### Removed
+
 - rubocop-shopify because they boiled the ocean
   - turning cops off isn't copacetic with the goal of strict compatibility
 
 ## [1.0.7] 2023-06-14
+
 ### Changed
+
 - Moved development dependencies out of gemspec
 - rubocop to 1.52.1
 - rubocop-shopify to 2.14
 - standard-custom to 1.0.1
 - standard-rubocop-lts to 1.0.7
 - version_gem to 1.1.3
+
 ### Fixed
+
 - rubocop/rails.yml config
   - betterlint integration
   - standard-rails integration
 - bin/pry now pre-loads this library
 
 ## [1.0.6] 2023-06-05
+
 ### Added
+
 - Dependencies
   - yard-junk
   - redcarpet
@@ -98,38 +133,56 @@ Please file a bug if you notice a violation of semantic versioning.
 - Some rules should ignore specs/tests
   - Style/MethodCallWithArgsParentheses
   - Style/ClassAndModuleChildren
+
 ### Fixed
+
 - `yard` documentation task
+
 ### Changed
+
 - Added Include to inherit_mode: merge
 - Updated dependency on standard-rubocop-lts
 
 ## [1.0.5] 2023-05-22
+
 ### Fixed
+
 - install_tasks and Railtie loading of rake tasks
 
 ## [1.0.4] 2023-05-21
+
 ### Fixed
+
 - Ship rake tasks in gem package
+
 ### Changed
+
 - tasks.rake => tasks.rb
 
 ## [1.0.3] 2023-05-18
+
 ### Fixed
+
 - Fix rake_tasks hook on Railtie
 
 ## [1.0.2] 2023-05-17 [YANKED]
+
 ## Added
+
 - version_gem to help with code coverage
 - more documentation
 
 ## [1.0.1] 2023-05-16 [YANKED]
+
 ### Fixed
+
 - inaccurate spec.description in GemSpec
 - ship rubocop configs at rubocop-lts/**/*.yml
 
 ## [1.0.0] 2023-05-16 [YANKED]
+
 ### Added
+
 - Initial release
   - Configs for:
     - rubocop
@@ -150,7 +203,12 @@ Please file a bug if you notice a violation of semantic versioning.
     - betterlint
     - standard-rails
 
-[Unreleased]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v2.0.2...HEAD
+[Unreleased]: https://github.com/rubocop-lts/rubocop-ruby1_8/compare/v2.0.4...HEAD
+[2.0.4]: https://github.com/rubocop-lts/rubocop-ruby1_8/compare/v2.0.2...v2.0.4
+[2.0.4t]: https://github.com/rubocop-lts/rubocop-ruby1_8/releases/tag/v2.0.4
+[2.0.2]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v2.0.1...v2.0.2
+[2.0.1]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v2.0.0...v2.0.1
+[2.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.7...v2.0.0
 [1.0.7]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.6...v1.0.7
 [1.0.6]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.5...v1.0.6
 [1.0.5]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.4...v1.0.5
@@ -158,7 +216,4 @@ Please file a bug if you notice a violation of semantic versioning.
 [1.0.3]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.2...v1.0.3
 [1.0.2]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.1...v1.0.2
 [1.0.1]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.0...v1.0.1
-[1.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/b1df7fff27e040c8dc7a7e63bf8eddbe456c7d18...v1.0.0
-[2.0.1]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v2.0.0...v2.0.1
-[2.0.0]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v1.0.7...v2.0.0
-[2.0.2]: https://gitlab.com/rubocop-lts/rubocop-ruby1_8/-/compare/v2.0.1...v2.0.2
+[1.0.0]: https://github.com/rubocop-lts/rubocop-ruby1_8/compare/b1df7fff27e040c8dc7a7e63bf8eddbe456c7d18...v1.0.0
