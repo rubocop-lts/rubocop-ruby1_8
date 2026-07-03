@@ -3,7 +3,7 @@
 module Rubocop
   module Ruby18
     module Version
-      VERSION = "2.0.5"
+      VERSION = "2.0.6"
     end
     VERSION = Version::VERSION # Traditional Constant Location
   end
