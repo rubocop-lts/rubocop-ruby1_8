@@ -3,8 +3,26 @@
     {
       "file": "gemfiles/modular/templating_local.gemfile",
       "lines": [
-        75,
-        86
+        78,
+        89
+      ]
+    }
+  ],
+  "direct: rubocop-ruby1_8.gemspec\nmodular: gemfiles/modular/documentation.gemfile": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        98,
+        118
+      ]
+    }
+  ],
+  "direct: rubocop-ruby1_8.gemspec\nmodular: gemfiles/modular/style.gemfile": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        108,
+        113
       ]
     }
   ]
