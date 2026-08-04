@@ -1,4 +1,7 @@
 {
+  "gemfiles/modular/templating.gemfile:3520099156": [
+    [14, 3, 50, "Bundler/DuplicatedGem: Gem `tree_sitter_language_pack` requirements already given on line 10 of the Gemfile.", 1000260798]
+  ],
   "rubocop-ruby1_8.gemspec:2291357659": [
     [19, 32, 10, "Gemspec/RequiredRubyVersion: `required_ruby_version` and `TargetRubyVersion` (2.0, which may be specified in .rubocop.yml) should be equal.", 4072499287]
   ],
