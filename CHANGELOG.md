@@ -22,6 +22,8 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Changed
 
+- Make package metadata identify the Ruby 1.8 ruleset target.
+
 ### Deprecated
 
 ### Removed
