@@ -68,7 +68,7 @@ end
 # name `docs` as an up-to-date file task, so `rake docs` exits 0 having
 # regenerated nothing.
 desc "Generate YARD documentation"
-task docs: "yard"
+task :docs => "yard"
 
 # simplecov:disable
 ### MONOREPO FAMILY TASKS
