@@ -19,7 +19,7 @@ PATH
       version_gem (~> 1.1, >= 1.1.15)
 
 PATH
-  remote: /var/home/pboling/src/my/rubocop-lts/rubocop-lts-ruby
+  remote: /home/pboling/src/my/rubocop-lts/rubocop-lts-ruby
   specs:
     rubocop-lts-ruby (0.1.5)
       lint_roller (~> 1.1)
@@ -27,7 +27,7 @@ PATH
       version_gem (~> 1.1, >= 1.1.15)
 
 PATH
-  remote: /var/home/pboling/src/my/rubocop-lts/rubocop-lts
+  remote: /home/pboling/src/my/rubocop-lts/rubocop-lts
   specs:
     rubocop-lts (24.2.6)
       rubocop-ruby3_2 (~> 3.0, >= 3.0.8)
@@ -35,18 +35,7 @@ PATH
       version_gem (~> 1.1, >= 1.1.15)
 
 PATH
-  remote: /var/home/pboling/src/my/rubocop-lts/rubocop-ruby3_2
-  specs:
-    rubocop-ruby3_2 (3.0.9)
-      rubocop-gradual (~> 0.3, >= 0.3.6)
-      rubocop-md (~> 2.0, >= 2.0.4)
-      rubocop-rake (~> 0.7, >= 0.7.1)
-      rubocop-thread_safety (~> 0.7, >= 0.7.3)
-      standard-rubocop-lts (~> 2.0, >= 2.0.14)
-      version_gem (~> 1.1, >= 1.1.15)
-
-PATH
-  remote: /var/home/pboling/src/my/rubocop-lts/standard-rubocop-lts
+  remote: /home/pboling/src/my/rubocop-lts/standard-rubocop-lts
   specs:
     standard-rubocop-lts (2.0.14)
       rubocop-lts-ruby (~> 0.1, >= 0.1.4)
@@ -461,6 +450,13 @@ GEM
       lint_roller (~> 1.1)
       rubocop (~> 1.89)
       rubocop-rspec (~> 3.5)
+    rubocop-ruby3_2 (3.0.9)
+      rubocop-gradual (~> 0.3, >= 0.3.6)
+      rubocop-md (~> 2.0, >= 2.0.4)
+      rubocop-rake (~> 0.7, >= 0.7.1)
+      rubocop-thread_safety (~> 0.7, >= 0.7.3)
+      standard-rubocop-lts (~> 2.0, >= 2.0.14)
+      version_gem (~> 1.1, >= 1.1.15)
     rubocop-thread_safety (0.8.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.89)
@@ -642,7 +638,6 @@ DEPENDENCIES
   rubocop-on-rbs (~> 2.2, >= 2.2.0)
   rubocop-packaging (~> 0.6, >= 0.6.0, >= 0)!
   rubocop-ruby1_8!
-  rubocop-ruby3_2!
   ruby-progressbar (~> 1.13)
   standard (~> 1.57, >= 1.57.0)
   standard-rubocop-lts!
@@ -790,7 +785,7 @@ CHECKSUMS
   rubocop-rspec-extra (0.3.0) sha256=ee4b6484d0332a0d23c4a465eeb607e41888eb3d4ed479f850b9f5212514f787
   rubocop-rspec_rails (2.33.0) sha256=669e0a7a9a5fca6d6ccaf853ac65b5b8bdfde3519f604616f2c5278cbf565689
   rubocop-ruby1_8 (2.0.8)
-  rubocop-ruby3_2 (3.0.9)
+  rubocop-ruby3_2 (3.0.9) sha256=d59177ec88bc6f5ca311c5981bff70f88cef35b2574bb1df66b9042e3c2824eb
   rubocop-thread_safety (0.8.0) sha256=71fe5e7894fb9acfbd4c2dcd394feabc35bd690f75b0bc846e1504d9e31f9034
   ruby-merge (7.1.12) sha256=e5e07f697dea556de6832709b0b7851d34b8807506695749bfb48b4ebf373185
   ruby-progressbar (1.13.0) sha256=80fc9c47a9b640d6834e0dc7b3c94c9df37f08cb072b7761e4a71e22cff29b33
