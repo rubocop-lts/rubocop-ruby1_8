@@ -95,6 +95,7 @@ gem "rubocop-packaging",
 platform :mri do
   eval_nomono_gems(
     :gems => local_gems_to_eval,
+    :requirements => local_gem_requirements,
     :prefix => "RUBOCOP_LTS",
     :path_env => "RUBOCOP_LTS_DEV",
     :vendored_gems_env => "VENDORED_GEMS",
