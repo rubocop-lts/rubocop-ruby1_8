@@ -22,9 +22,9 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Changed
 
-- [kc] kettle-jem/template: updated 18 project files:
+- [kc] kettle-jem/template: updated 19 project files:
   - dependencies (17)
-  - other (1)
+  - other (2)
 
 - [kc] kettle-jem/prepare: updated 18 project files:
   - configuration (1)
@@ -35,6 +35,8 @@ Please file a bug if you notice a violation of semantic versioning.
 ### Removed
 
 ### Fixed
+
+- license-eye workflow: make the `standard` gem license override versionless, so dependency bumps no longer break the license check with "standard | Unknown"
 
 ### Security
 
