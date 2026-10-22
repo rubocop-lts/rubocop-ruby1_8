@@ -5,7 +5,7 @@
     [77, 1, 20, "Rake/DuplicateTask: Task `docs` is defined at both Rakefile:71 and Rakefile:77.", 2220311588],
     [79, 1, 20, "Rake/DuplicateTask: Task `docs` is defined at both Rakefile:71 and Rakefile:79.", 2220311588]
   ],
-  "rubocop-ruby1_8.gemspec:524994813": [
+  "rubocop-ruby1_8.gemspec:2102109340": [
     [19, 32, 10, "Gemspec/RequiredRubyVersion: `required_ruby_version` and `TargetRubyVersion` (2.0, which may be specified in .rubocop.yml) should be equal.", 4072499287]
   ],
   "spec/rubocop/ruby1_8/version_spec.rb:3245706175": [
